@@ -1,4 +1,11 @@
 # MAIL
+  Отправка по smtp
+  
+  swaks --from amra@axlle.htb --to accounts@axlle.htb --body "Hello" --header "Hello" --attach @test.xll
+
+  swaks -s 10.10.11.21 -f maxxxx@axlle.htb -t accounts@axlle.htb --attach @test.xll
+
+
 
 telnet 10.10.10.77 25
 Trying 10.10.10.77...
