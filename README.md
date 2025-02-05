@@ -6,7 +6,7 @@
   swaks -s 10.10.11.21 -f maxxxx@axlle.htb -t accounts@axlle.htb --attach @test.xll
 
 
-
+///
 telnet 10.10.10.77 25
 Trying 10.10.10.77...
 Connected to 10.10.10.77.
@@ -24,4 +24,4 @@ mail from: <fuck@fuck.com>
 250 OK
 rcpt to: <nico@megabank.com>
 250 OK
-
+////
