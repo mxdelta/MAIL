@@ -1,7 +1,7 @@
 # MAIL
 # MAIL
 
-# User Enumeration
+# Пользователя почты
 
     smtp-user-enum -M RCPT -U users.txt -D inlanefreight.htb -t 10.129.203.12
 
