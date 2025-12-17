@@ -1,3 +1,7 @@
+# скан вебморд
+    
+        eyewitness -f domain_real.txt -d ILFREIGHT_subdomain_EyeWitness
+
 # MAIL
 # MAIL
 
